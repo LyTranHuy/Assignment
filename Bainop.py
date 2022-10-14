@@ -8,7 +8,7 @@ for i in nstr:
 """
 
 #Bai 2
-from ast import Break
+"""from ast import Break
 from xmlrpc.client import boolean
 
 
@@ -23,4 +23,22 @@ for i in range (0, len(nums)-1):
                 print (i, j)
                 flag = True
     if flag:
-        break
+        break"""
+
+#Bai 3
+
+n_str = int(input())
+wordlist = list()
+count ={}
+for i in range(n_str):
+    word = input()
+    wordlist.append(word)
+    if word in count:
+        count[word]+=1
+    else:
+        count[word]=1
+print(len(count))
+result ={}
+for i in count:
+    y = count.get(i)
+    print(y, end = ' ')

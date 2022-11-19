@@ -1,0 +1,10 @@
+{
+    "thecat": 
+        {
+        "name": "Zophie", 
+        "isCat": true,
+        "miceCaught": 0, 
+        "napsTaken": 37.5,
+        "felineIQ": 0
+    }
+}
